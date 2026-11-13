@@ -1,6 +1,6 @@
 /* Maison Alba — lightweight interactions. All editable menu data is in config.js. */
 const config = window.MAISON_CONFIG;
-const imageUrls = {"dining": "assets/dining.jpg", "kitchen": "assets/kitchen.jpg", "risotto": "assets/risotto.jpg", "duck": "assets/duck.jpg", "paella": "assets/paella.jpg", "burrata": "assets/burrata.jpg", "beef": "assets/beef.jpg", "tart": "assets/tart.jpg", "bar": "assets/bar.jpg", "terrace": "assets/terrace.jpg"};
+const imageUrls = {"dining": "../assets/dining.jpg", "kitchen": "../assets/kitchen.jpg", "risotto": "../assets/risotto.jpg", "duck": "../assets/duck.jpg", "paella": "../assets/paella.jpg", "burrata": "../assets/burrata.jpg", "beef": "../assets/beef.jpg", "tart": "../assets/tart.jpg", "bar": "../assets/bar.jpg", "terrace": "../assets/terrace.jpg"};
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

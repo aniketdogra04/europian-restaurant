@@ -11,8 +11,8 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://maison-alba-old-town.bluishpig2.chatgpt.site">
   <meta property="og:image" content="https://maison-alba-old-town.bluishpig2.chatgpt.site/assets/dining.jpg">
-  <link rel="stylesheet" href="assets/fonts.css">
-  <link rel="preload" as="image" href="assets/dining.jpg">
+  <link rel="stylesheet" href="../assets/fonts.css">
+  <link rel="preload" as="image" href="../assets/dining.jpg">
   <link rel="stylesheet" href="styles.css">
   <!-- Demo business details: replace from config.js before using for a real restaurant. -->
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Maison Alba (demonstration)","servesCuisine":["French","Italian","Spanish","Modern European"],"url":"https://maison-alba-old-town.bluishpig2.chatgpt.site","priceRange":"€€€","telephone":"+33 0 00 00 00 00","address":{"@type":"PostalAddress","streetAddress":"12 Rue des Oliviers (sample address)","addressLocality":"Lyon","postalCode":"69005","addressCountry":"FR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"17:30","closes":"22:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"17:00","closes":"21:30"}]}</script>
@@ -30,7 +30,7 @@
   <main id="main">
     <!-- Hero -->
     <section class="hero" aria-labelledby="hero-title">
-      <img class="hero-image" src="assets/dining.jpg" alt="A warmly lit restaurant dining room with wooden tables, greenery and pendant lights" width="2000" height="1333" fetchpriority="high">
+      <img class="hero-image" src="../assets/dining.jpg" alt="A warmly lit restaurant dining room with wooden tables, greenery and pendant lights" width="2000" height="1333" fetchpriority="high">
       <div class="hero-shade"></div>
       <div class="hero-content wrap">
         <p class="eyebrow light"><span></span> A LITTLE CORNER OF EUROPE</p>
@@ -45,7 +45,7 @@
     <!-- Story -->
     <section class="story section wrap" id="story">
       <div class="story-copy reveal"><p class="eyebrow">THE MAISON ALBA WAY</p><h2>A place to gather.<br>A reason to <em>linger.</em></h2><p>Some of the best evenings start with a simple idea: bring good people together around a table.</p><p>Our kitchen takes its cues from the markets of France, the tables of Italy and the generous spirit of Spain. We cook with the seasons, pour wines we love, and let good ingredients speak for themselves.</p><p>Come for a quiet dinner for two. Bring everyone for a birthday. There’s always room for one more story.</p><div class="story-highlights"><div><span aria-hidden="true">❧</span>Seasonal<br>ingredients</div><div><span aria-hidden="true">♨</span>European<br>inspiration</div><div><span aria-hidden="true">♧</span>Thoughtfully<br>chosen wines</div></div></div>
-      <div class="story-photo reveal"><img src="assets/kitchen.jpg" loading="lazy" width="900" height="1100" alt="Hands preparing fresh ingredients in a busy kitchen"><span class="photo-note">From our kitchen, with care.</span><div class="round-stamp" aria-hidden="true">SEASONAL • SIMPLE •<br><b>made<br><i>with care</i></b></div></div>
+      <div class="story-photo reveal"><img src="../assets/kitchen.jpg" loading="lazy" width="900" height="1100" alt="Hands preparing fresh ingredients in a busy kitchen"><span class="photo-note">From our kitchen, with care.</span><div class="round-stamp" aria-hidden="true">SEASONAL • SIMPLE •<br><b>made<br><i>with care</i></b></div></div>
     </section>
     <!-- Signature dishes -->
     <section class="signature section" id="dishes"><div class="wrap"><div class="section-heading reveal"><div><p class="eyebrow">FROM OUR KITCHEN</p><h2>A few house <em>favourites.</em></h2></div><p>Familiar flavours. A seasonal touch.<br>Something worth passing around.</p></div><div class="dish-grid" id="dish-grid"></div><div class="center section-link"><a class="text-link" href="#menu">Explore the full menu <span aria-hidden="true">↗</span></a></div></div></section>
@@ -63,7 +63,7 @@
   <!-- Footer -->
   <footer class="footer"><div class="wrap footer-top"><div><a class="wordmark" href="#"><span class="brand-flower" aria-hidden="true">✳</span><span>maison alba<small>EUROPEAN KITCHEN & WINE</small></span></a><p>Good food. Unhurried evenings.</p><div class="social-links"><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram (placeholder profile)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".7"/></svg></a><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook (placeholder profile)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 21v-8h3l.5-4H14V7c0-1 .5-2 2-2h2V2h-3c-3 0-5 2-5 5v2H7v4h3v8"/></svg></a></div></div><div class="footer-nav"><p class="eyebrow">COME ON IN</p><a href="#story">Our story</a><a href="#menu">The menu</a><a href="#reserve">Reservations</a><a href="#visit">Find us</a></div><div class="newsletter"><p class="eyebrow">A NOTE FROM OUR TABLE</p><p>Seasonal menus and occasional good news.</p><form id="newsletter-form" novalidate><label class="sr-only" for="newsletter-email">Email address</label><div class="newsletter-input"><input id="newsletter-email" type="email" placeholder="Your email address" autocomplete="email" required><button type="submit" aria-label="Join the newsletter">↗</button></div><p id="newsletter-status" role="status"></p></form><small>Demo signup. No email is stored or sent.</small></div></div><div class="wrap footer-bottom"><span>© <span id="year">2026</span> Maison Alba. A restaurant concept.</span><span>Made for slow evenings.</span></div></footer>
   <div class="mobile-reserve"><a class="button" href="#reserve">Reserve a Table <span aria-hidden="true">↗</span></a></div>
-  <dialog id="lightbox" aria-label="Photo gallery"><button class="lightbox-close" aria-label="Close photo">×</button><button class="lightbox-prev" aria-label="Previous photo">←</button><figure><img id="lightbox-image" src="assets/dining.jpg" alt=""><figcaption id="lightbox-caption"></figcaption></figure><button class="lightbox-next" aria-label="Next photo">→</button></dialog>
+  <dialog id="lightbox" aria-label="Photo gallery"><button class="lightbox-close" aria-label="Close photo">×</button><button class="lightbox-prev" aria-label="Previous photo">←</button><figure><img id="lightbox-image" src="../assets/dining.jpg" alt=""><figcaption id="lightbox-caption"></figcaption></figure><button class="lightbox-next" aria-label="Next photo">→</button></dialog>
   <script src="config.js"></script><script src="app.js"></script>
 </body>
 </html>
